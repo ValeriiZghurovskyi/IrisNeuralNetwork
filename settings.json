@@ -1,0 +1,16 @@
+{
+    "general": {
+        "random_state": 42,
+        "data_dir": "data",
+        "models_dir": "models",
+        "results_dir": "results"
+    },
+    "train": {
+        "table_name": "iris_train.csv",
+        "test_size": 0.2
+    },
+    "inference": {
+        "model_name": "iris_model.pkl",
+        "inp_table_name": "iris_inference.csv"
+    }
+}
