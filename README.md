@@ -1,11 +1,13 @@
 # How to build my project
 
 1. First step. Clone my repository from github, like an example:
+```bash
 git clone https://github.com/ValeriiZghurovskyi/IrisNeuralNetwork.git
-
+```
 2. Second step. Go to IrisNeuralNetwork folder:
+```bash
 cd IrisNeuralNetwork
-
+```
 3. For generating the data, use the script located at `data_process/data_generation.py`. The generated data is used to train the model and to test the inference. Following the approach of separating concerns, the responsibility of data generation lies with this script.
 
 ## Training:
